@@ -1,5 +1,5 @@
 /** Provides services for working with arrays. */
-export default class ArrayService {
+export class ArrayService {
 
     /**
      * Appends the source array to the target array.
