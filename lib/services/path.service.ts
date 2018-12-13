@@ -1,7 +1,7 @@
 ﻿/**
  * Provides services for working with file paths.
  */
-export class PathService {
+export default class PathService {
 
     /**
      * Combines two paths together.

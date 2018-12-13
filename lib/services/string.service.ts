@@ -1,4 +1,4 @@
-﻿export class StringService {
+﻿export default class StringService {
 
     /**
      * Compares two strings. Returns < 0 if the left is less than the right, 0 if they are equal and > 0 if the left is greater than the right.
