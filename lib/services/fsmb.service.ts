@@ -1,11 +1,11 @@
-import * as Array from "../services/array.service";
-import * as Path from "../services/path.service";
-import * as String from "../services/string.service";
+import { ArrayService } from "../services/array.service";
+import { PathService } from "../services/path.service";
+import { StringService } from "../services/string.service";
+import { ConvertService } from "../services/convert.service";
 
-export namespace FsmbServices {    
-    export const Services = {
-        Array: Array,
-        Path: Path,
-        String: String
-    }
+export default class FsmbServices {       
+    Arrays: ArrayService = new ArrayService();
+    Paths: PathService = new PathService();
+    Strings: StringService = new StringService();
+    Convert: ConvertService = new ConvertService();
 }

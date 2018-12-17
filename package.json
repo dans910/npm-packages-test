@@ -1,9 +1,9 @@
 {
    "name": "npm-packages-test",
-   "version": "1.0.2",
+   "version": "1.0.3",
    "description": "Test repo for publishing npm packages",
-   "main": "dist/index.js",
-   "types": "dist/index.js",
+   "main": "dist/index",
+   "types": "dist/index",
    "scripts": {
       "test": "mocha --require ts-node/register tests/**/*.ts",
       "build": "tsc",
@@ -31,5 +31,7 @@
       "typescript": "^3.2.2"
    },
    "dependencies": {},
-   "files": ["dist/lib/**/*"]
+   "files": [
+      "dist/lib/**/*"
+   ]
 }
